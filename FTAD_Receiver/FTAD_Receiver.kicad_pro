@@ -226,7 +226,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|977900|1689100|5cd5683a-aa65-436b-93f1-efe365fe4ef9|00000000-0000-0000-0000-000000000000|/20ad70a5-636e-4ea2-a57a-c40ac2ce0206|/20ad70a5-636e-4ea2-a57a-c40ac2ce0206|",
+        "bruh its witewawwy connected to a capacitor?!?!?!"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -430,7 +435,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -481,10 +486,6 @@
     "net_colors": null,
     "netclass_assignments": null,
     "netclass_patterns": [
-      {
-        "netclass": "Default",
-        "pattern": "LM3671_GND"
-      },
       {
         "netclass": "Default",
         "pattern": "GND"
