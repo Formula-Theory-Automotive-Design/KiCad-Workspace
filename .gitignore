@@ -38,3 +38,10 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+FTAD_DriverStation/sym-lib-table
+FTAD_Reciever/sym-lib-table
+FTAD_DriverStation/sym-lib-table
+FTAD_Receiver/sym-lib-table
+FTAD_DriverStation/sym-lib-table
+FTAD_Receiver/sym-lib-table
